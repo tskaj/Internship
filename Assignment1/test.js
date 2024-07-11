@@ -30,4 +30,4 @@ Options();
 substring(firstname, midname, lastname);
 capitalize("eMuMba"); // "Emumba"
 capitalize("prIVate"); // "Privcate"
-capitalize("iMMiTTed"); // "Limmitted"
+capitalize("iMMiTTed"); // "Limmitted"S
