@@ -14,6 +14,9 @@ const {
 } = require('./if_statements_and_loops');
 
 const {
+    firstname,
+    midname,
+    lastname,
     substring
 } = require('./strings');
 
@@ -23,4 +26,4 @@ Displaystring("Abdullah Javed");
 truefalse();
 displayarr();
 Options();
-substring();
+substring(firstname, midname, lastname);
