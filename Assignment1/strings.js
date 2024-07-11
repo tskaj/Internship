@@ -23,11 +23,14 @@ string.`
     console.log(`I am working as an intern at ${firstname} ${midname} ${lastname}`);
 }
 
-substring(firstname, midname, lastname);
+function capitalize(word) {
+    console.log(word[0].toLocaleUpperCase()+ word.substring(1).toLocaleLowerCase());
+}
 
 module.exports = {
     firstname,
     midname,
     lastname,
-    substring
+    substring,
+    capitalize
 };

@@ -17,7 +17,8 @@ const {
     firstname,
     midname,
     lastname,
-    substring
+    substring,
+    capitalize
 } = require('./strings');
 
 console.log("This is addition of 1 & 3 numbers= " + sum(1, 3));
@@ -27,3 +28,6 @@ truefalse();
 displayarr();
 Options();
 substring(firstname, midname, lastname);
+capitalize("eMuMba"); // "Emumba"
+capitalize("prIVate"); // "Privcate"
+capitalize("iMMiTTed"); // "Limmitted"
